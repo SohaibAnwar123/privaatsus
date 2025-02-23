@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Privaatsus.ee</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <!-- font awsome kit  -->
+    <script
+      src="https://kit.fontawesome.com/6e565221c4.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- link css  -->
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="assets\css\apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="assets\css\favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="assets\css\favicon-16x16.png"
+    />
+  </head>
+
+  <body>
+    <!-- navbar start  -->
+    <section class="nav_wrapper header_wrappr">
+      <div class="container">
+        <!-- veebis navbar start here  -->
+        <nav class="navbar navbar-expand">
+          <a class="navbar-brand" href="index.html"
+            ><img src="assets/img/logo.svg" alt="logo.svg"
+          /></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#collapsibleNavbar"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav">
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  >Kuidas ennast kaitsta?
+                  <img
+                    src="assets/img/dropdown_icon.svg"
+                    alt="dropdown_icon"
+                    class="ms-2"
+                /></a>
+                <ul class="dropdown-menu">
+                  <li>
+                    <a class="dropdown-item" href="veebis_kaitumine.html"
+                      >Käitumine veebis</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="parimad_tavad.html"
+                      >Parimad tavad</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="anonuumsus.html"
+                      >Anonüümsuse saavutamine</a
+                    >
+                  </li>
+                  <li><a class="dropdown-item" href="#Kontakt">Kontakt</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </nav>
+        <!-- veebis navbar end here  -->
+      </div>
+    </section>
+    <!-- navbar end  -->
+    <!-- Kas section start  -->
+    <section class="kas_wrapper" id="kodu">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-6 col-md-10">
+            <div class="kas_left">
+              <h1 class="left_title">Kas soovid <span id="rotate"></span>?</h1>
+              <div class="img_Wrap">
+                <img src="assets/img/kas_img.svg" alt="" />
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-10 mt-lg-0 mt-4">
+            <div class="kas_right">
+              <h1 class="right_title">Ole<span class="proxy_true">te</span> kaitstud!</h1>
+
+              <div class="fetch_api">
+                <div class="ip_detail">
+                  <p>Info teie kohta juba teada:</p>
+                  <ul>
+                    <li>IP aadress : <span class="ip"></span></li>
+                    <li>
+                      Asukoht : <span class="country"></span
+                      ><span class="city"></span>
+                    </li>
+                    <li>VPN/TOR : <span id="vpn_status"></span></li>
+                  </ul>
+                </div>
+                <div class="flag_img">
+                  <img
+                    src="https://countryflagsapi.com/png/br"
+                    alt="kasutaja lipp"
+                    id="count_flag"
+                  />
+                </div>
+              </div>
+              <div class="img_Wrap d-md-none">
+                <img src="assets/img/kas_img.svg" alt="" />
+              </div>
+              <div class="purple_btn flex_align btn_purple_general">
+                <a href="">Uuri lähemalt</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Kas section end  -->
+    <div class="learn_more flex_align">
+      <a href="#Ressursid">
+        <span>UURI LÄHEMALT</span>
+        <img src="assets/img/down.svg" alt="" />
+      </a>
+    </div>
+    <!-- secure youself section start  -->
+    <section class="secure_your" id="Ressursid">
+      <div class="container">
+        <div class="secure_title text-center">
+          Kaitse ennast küberohtude eest
+        </div>
+        <div class="secure_card">
+          <!-- first card start  -->
+          <div class="secure_inner">
+            <div class="img_wrap">
+              <img src="assets/img/secure_sheild.svg" alt="" />
+            </div>
+
+            <h2 class="inner_title">Käitumine veebis</h2>
+            <div class="secure_content">
+              <h6>Õpi kuidas turvaliselt käituda veebis :</h6>
+
+              <p><i class="fas fa-circle"></i> Digitaalne jalajälg</p>
+              <p><i class="fas fa-circle"></i> Turvaline veebisirvimine</p>
+              <p><i class="fas fa-circle"></i> Andmete jagamine</p>
+            </div>
+
+            <div>
+              <a href="veebis_kaitumine.html" class="learn_more_btn flex_align"
+                >Loe lähemalt</a
+              >
+            </div>
+          </div>
+          <!-- first card end  -->
+
+          <!-- 2nd card start  -->
+          <div class="secure_inner">
+            <div class="img_wrap">
+              <img src="assets/img/secure_hat.svg" alt="" />
+            </div>
+            <h2 class="inner_title">Parimad tavad</h2>
+            <div class="secure_content">
+              <h6>Õpi parimatest tavadest küberkaitses :</h6>
+
+              <p><i class="fas fa-circle"></i> Kahju kontroll</p>
+              <p><i class="fas fa-circle"></i> Brauseri sätestamine</p>
+              <p><i class="fas fa-circle"></i> Andmete jagamine</p>
+            </div>
+            <div>
+              <a href="parimad_tavad.html" class="learn_more_btn flex_align"
+                >Loe lähemalt</a
+              >
+            </div>
+          </div>
+          <!-- 2nd card end  -->
+          <!-- 3rd card start  -->
+          <div class="secure_inner secure_inner__third">
+            <div class="img_wrap">
+              <img src="assets/img/secure_bag.svg" alt="" />
+            </div>
+            <h2 class="inner_title">Anonüümsuse saavutamine</h2>
+            <div class="secure_content">
+              <h6>Õpi kuidas saavutada anonüümsus :</h6>
+
+              <p><i class="fas fa-circle"></i> Virtuaalse privaatvõrgu abil</p>
+              <p><i class="fas fa-circle"></i> Tor vabavara abil</p>
+              <p><i class="fas fa-circle"></i> Tails vabavara abil</p>
+            </div>
+            <div>
+              <a href="anonuumsus.html" class="learn_more_btn flex_align"
+                >Loe lähemalt</a
+              >
+            </div>
+          </div>
+          <!-- 3rd card end  -->
+        </div>
+      </div>
+    </section>
+    <!-- secure youself section end  -->
+
+    <!-- footer start  -->
+    <footer id="Kontakt" class="footer_wrapper">
+      <!-- ananoymous wrapper start  -->
+      <div class="veebis_anay">
+        <div class="anay_veebileht">
+          <p>Veebileht on loodud</p>
+          <p>
+            <span
+              >“Anonüümsuse saavutamine internetis tasuta tarkvara
+              kasutades”</span
+            >
+          </p>
+          <p>uurimistöö raames</p>
+        </div>
+        <div>
+          <a href="#" class="btn anay_btn flex_align any_tutvu"
+            >Tutvu uurimistööga</a
+          >
+        </div>
+      </div>
+      <!-- ananoymous wrapper emd  -->
+      <div class="container">
+        <div class="info_wrapper">
+          <div class="info_detail">
+            <h2 class="info_title">Info</h2>
+            <a href="veebis_kaitumine.html" class="d-block">Käitumine veebis</a>
+            <a href="parimad_tavad.html" class="d-block">Parimad tavad</a>
+            <a href="anonuumsus.html" class="d-block"
+              >Anonüümsuse saavutamine</a
+            >
+          </div>
+          <div class="info_detail">
+            <h2 class="info_title">Kasulikud lingid</h2>
+            <a href="" class="d-block">privacytools.io</a>
+            <a href="" class="d-block">Uurimistöö</a>
+          </div>
+
+          <div class="info_detail d-md-block d-none">
+            <h2 class="info_title">Contact</h2>
+            <a href="" class="d-block">dante@tlu.ee</a>
+          </div>
+        </div>
+        <div class="footer_last">
+          <div class="last_title">
+            <a href="" class="d-md-block d-none">PRIVAATSUS.EE </a>
+          </div>
+          <p class="last_detail d-md-block d-none">© privaatsus.ee 2022.</p>
+          <p class="last_detail d-md-none">
+            © Zodbyte 2021. All rights reserved.
+          </p>
+        </div>
+      </div>
+    </footer>
+    <!-- footer end  -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+
+  <script>
+    var terms = ["turvalisust", "privaatsust", "anonüümsust"];
+
+    function rotateTerm() {
+      var ct = $("#rotate").data("term") || 0;
+      $("#rotate")
+        .data("term", ct == terms.length - 1 ? 0 : ct + 1)
+        .text(terms[ct])
+        .fadeIn()
+        .delay(3000)
+        .fadeOut(200, rotateTerm);
+    }
+    $(rotateTerm);
+  </script>
+
+  <script>
+    $(document).ready(function () {
+      $.get(
+        "https://pro.ip-api.com/json/?fields=country,countryCode,region,city,isp,proxy,query&key=Sh3Bfq0raArjYxg",
+        function (response) {
+          console.log(response);
+          $(".ip").html(response.query);
+          $(".country").html(response.country);
+          $(".city").html(response.city);
+          let proxy1 = response.proxy.toString();
+          let cc =
+            "https://countryflagsapi.com/png/" + response.country.toLowerCase();
+          $("#count_flag").attr("src", cc);
+
+          document.getElementById("vpn_status").innerHTML = proxy1;
+
+          // if(proxy1===)
+          if (proxy1 === "true") {
+            $(".kas_right").addClass("proxy_detected");
+          }
+        },
+        "jsonp"
+      );
+    });
+  </script>
+</html>
